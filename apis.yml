@@ -1,7 +1,28 @@
 aid: plant-an-app
 name: Plant an App
-description: Plant an App is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
+description: Plant an App is a developer-first low-code application development platform used to build
+  case management systems, citizen service portals, workflow automation, compliance dashboards, and
+  legacy-system integrations. It is positioned for government agencies, federal missions, and contractors,
+  is hosted on Amazon Web Services, and offers a documentation portal, academy, and community for app
+  builders. It is a low-code builder platform rather than a public REST API product; no public OpenAPI
+  specification or API reference is published. Backed by 500 Global.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://avatars.githubusercontent.com/u/7024944?v=4
 url: https://raw.githubusercontent.com/api-evangelist/plant-an-app/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Low-Code
+- No-Code
+- Application Development
+- Workflow Automation
+- Case Management
+- Government
+- Platform
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,29 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/plant-an-app-domain-security.yml
+- type: LLMsTxt
+  url: llms/plant-an-app-llms.txt
 - type: Website
   url: https://plantanapp.com
+- type: DeveloperPortal
+  url: https://learn.plantanapp.com/docs/current/general/welcome
+- type: Documentation
+  url: https://learn.plantanapp.com/docs/current/general/welcome
+- type: GettingStarted
+  url: https://learn.plantanapp.com/docs/current/general/getting-started
+- type: GitHubOrganization
+  url: https://github.com/plantanapp
+- type: Blog
+  url: https://www.plantanapp.com/blog
+- type: Support
+  url: https://console.plantanapp.com/support
+- type: HelpCenter
+  url: https://community.plantanapp.com
+- type: Login
+  url: https://console.plantanapp.com
+- type: TermsOfService
+  url: https://www.plantanapp.com/terms
+- type: PrivacyPolicy
+  url: https://www.plantanapp.com/privacy
