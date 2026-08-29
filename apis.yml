@@ -11,6 +11,17 @@ description: Plant an App is a developer-first low-code application development 
   is hosted on Amazon Web Services, and offers a documentation portal, academy, and community for app
   builders. It is a low-code builder platform rather than a public REST API product; no public OpenAPI
   specification or API reference is published. Backed by 500 Global.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
